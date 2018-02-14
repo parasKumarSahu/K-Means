@@ -1,10 +1,12 @@
 # K-Means
-C program to find clusters in a gray-scale pgm image and generate images containing different clusters. Library function used only for reading and writing images.
+C program to find clusters in a gray-scale pgm image using K-means algorithm and generate images containing different clusters. Library function used only for reading and writing images.
 
 Instructions to compile: 
+
 gcc ComputeKMeans.c -o p
 
 Run: 
+
 ./p InputImage.pgm 3 OutputFileName
 
 Output: 
